@@ -49,8 +49,8 @@ for i in range(times):
 	size1 = 4
 	chars3 = string.ascii_uppercase + string.digits
 	chars4 = ''.join(random.choice(chars3) for _ in range(size1))
-	addy3 = chars4+" "+"APT "+num1
-	sheet1.write(i, 3, addy3)
+	#addy3 = chars4+" "+"APT "+num1
+	#sheet1.write(i, 3, addy3)
 	#City
 	sheet1.write(i, 4, city)
 	#state
